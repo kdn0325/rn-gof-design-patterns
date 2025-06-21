@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "singleton",
-    "slug": "singleton",
+    "name": "Factory-Method",
+    "slug": "Factory-Method",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "singleton",
+    "scheme": "factorymethod",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
