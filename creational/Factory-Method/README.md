@@ -52,3 +52,10 @@ const factory: NotificationFactory = new ToastFactory();
 const notification = factory.createNotification();
 notification.show("Hello from Factory!");
 ```
+
+---
+
+## React Native에서 활용
+
+- 다양한 플랫폼/상황에 따라 동적으로 다른 UI/알림을 생성할 때 유용
+- 예: iOS/Android에 따라 알림 스타일, 입력 컴포넌트, 테마 구성 요소 등을 분리 생성
