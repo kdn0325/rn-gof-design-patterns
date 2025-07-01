@@ -1,0 +1,19 @@
+{
+  "type": "container",
+  "children": [
+    { "type": "text", "value": "공지사항입니다", "isTitle": true },
+    { "type": "image", "src": "https://picsum.photos/400/300" },
+    { "type": "button", "value": "확인", "onPressMessage": "확인 눌림" },
+    {
+      "type": "container",
+      "children": [
+        { "type": "text", "value": "서브 섹션 텍스트" },
+        {
+          "type": "button",
+          "value": "서브 버튼",
+          "onPressMessage": "서브 버튼 눌림"
+        }
+      ]
+    }
+  ]
+}
